@@ -144,6 +144,7 @@
 
      nav ul li a:hover {
         background-color: #141414;
+        transform: none;
      }
 
      nav .menu-icon .navicon, nav .menu-icon .navicon:before,
