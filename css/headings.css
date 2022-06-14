@@ -5,3 +5,28 @@ h1 {
     z-index: 0;
     top: 50%;
 }
+
+h2, nav li a {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+.card p  {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+nav li a, .container .card a {
+    color: #E4CDB8;
+}
+
+@media (max-width: 768px){
+    .card p  {
+        font-size: 12px;
+        opacity: 0.8;
+    }
+    
+}
