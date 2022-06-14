@@ -39,7 +39,7 @@
       font-weight: 300;
       font-size: 20px; 
       margin: 0; 
-      color: #fff;
+      color: #E4CDB8;
     }
 
     nav li a:hover {
@@ -112,6 +112,10 @@
       .nav li a {
         padding: 20px 30px;
       }
+
+      .nav li a i {
+        opacity: 0;
+      }
       .nav .menu {
         clear: none;
         float: right;
@@ -137,15 +141,21 @@
 
   
      nav ul li a {
-        padding-top: 20px;
+         text-align: center;
+         padding-top: 20px;
          padding-bottom: 40px;
          color: #E4CDB8;
      }
+    
 
      nav ul li a:hover {
         background-color: #141414;
         transform: none;
      }
+
+     .nav li a i {
+      opacity: 1;
+    }
 
      nav .menu-icon .navicon, nav .menu-icon .navicon:before,
      nav .menu-icon .navicon:after {
