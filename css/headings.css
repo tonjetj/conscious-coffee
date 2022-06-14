@@ -6,7 +6,7 @@ h1 {
     top: 50%;
 }
 
-h2, nav li a {
+h2, nav li a, .breadcrumbs ul li {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
