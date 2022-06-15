@@ -76,8 +76,8 @@ body {
 
     .about-images {
         z-index: 0;
-        padding-top: 4px;
-        min-height: 900px;
+        padding-top: 10px;
+        min-height: 1000px;
         min-width: 200px;
         background-size: cover;
         background-repeat: no-repeat;
