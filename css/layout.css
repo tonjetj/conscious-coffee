@@ -78,7 +78,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position-x: left;
-        background: no-repeat fixed 50%;
+        background: no-repeat fixed 100%;
     }
 
     .container h1 {
