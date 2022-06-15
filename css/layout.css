@@ -61,6 +61,7 @@ body {
 @media (min-width: 200px){
     main {
         margin: 0;
+        padding: 0;
     }
 
     div.text {
@@ -75,7 +76,7 @@ body {
 
     .about-images {
         z-index: 0;
-        padding-top: 8px;
+        padding-top: 4px;
         min-height: 900px;
         min-width: 200px;
         background-size: cover;
