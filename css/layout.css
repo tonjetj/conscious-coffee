@@ -75,9 +75,9 @@ body {
         padding-top: 10px;
         min-height: 900px;
         min-width: 200px;
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position-x: left;
+        background-position-x: center;
         background: no-repeat fixed cover;
     }
 
