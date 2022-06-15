@@ -59,8 +59,7 @@ body {
 }
 
 @media (min-width: 200px){
-    main section {
-        padding-bottom: -10px;
+    main {
         margin: 0;
     }
 
@@ -76,7 +75,7 @@ body {
 
     .about-images {
         z-index: 0;
-        padding-top: 10px;
+        padding-top: 8px;
         min-height: 900px;
         min-width: 200px;
         background-size: cover;
