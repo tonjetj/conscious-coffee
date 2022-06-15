@@ -16,6 +16,7 @@
     }
 
     nav.scrolled {
+      z-index: 1;
       background-color: #141414;
     }
 

@@ -6,7 +6,7 @@ h1 {
     top: 50%;
 }
 
-.container h1 {
+.container h1, div.text h1 {
     font-size: 30px;
 }
 
@@ -18,13 +18,18 @@ h2 {
     font-weight: 200;
 }
 
-.card p, .container h1  {
+.card p, .container h1, div.text p  {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
 
-nav li a, .container .card a {
+nav li a, .container .card a, div.text {
     color: #E4CDB8;
+}
+
+
+div.text h1 {
+    margin-bottom: 30px;
 }
 
 @media (max-width: 768px){

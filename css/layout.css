@@ -13,6 +13,7 @@ body {
         height: 111px;
     }
     .header {
+        z-index: 1;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -58,6 +59,27 @@ body {
 }
 
 @media (min-width: 200px){
+
+    div.text {
+        z-index: 1;
+        background-color: #141414d5;
+        text-align: center;
+        padding: 50px;
+        width: 200px;
+        margin: 150px auto;
+        border-radius: 10px;
+    }
+
+    .about-images {
+        z-index: 0;
+        padding-top: 10px;
+        min-height: 900px;
+        min-width: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background: no-repeat fixed 50%;
+    }
 
     .container h1 {
         text-align: center;
