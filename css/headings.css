@@ -6,6 +6,10 @@ h1 {
     top: 50%;
 }
 
+.container h1 {
+    font-size: 30px;
+}
+
 h2, nav li a, .breadcrumbs ul li {
     font-family: 'Barlow Condensed', sans-serif;
 }
@@ -14,7 +18,7 @@ h2 {
     font-weight: 200;
 }
 
-.card p  {
+.card p, .container h1  {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
