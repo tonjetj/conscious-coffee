@@ -1,7 +1,33 @@
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     background-color: #E0DCD9;
+}
+
+footer {
+    padding: 50px;
+}
+
+footer div {
+    align-items: center;
+    text-align: center;
+}
+
+footer div ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer div ul li {
+    padding: 10px;
+}
+
+footer div ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    
 }
 
 
@@ -12,7 +38,7 @@ body {
         z-index: 1;
         background-repeat: no-repeat;
         background-size: 100%;
-        height: 1000px;
+        min-height: 1000px;
     } 
     header {
         background-color: #141414;

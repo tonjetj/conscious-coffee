@@ -18,14 +18,15 @@ h2 {
     font-weight: 200;
 }
 
-.card p, .container h1, div.text p, .heroText  {
+.card p, .container h1, div.text p, footer {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
 
-nav li a, .container .card a, div.text {
+nav li a, .container .card a, div.text, footer, footer div ul li a {
     color: #E4CDB8;
 }
+
 
 
 div.text h1 {
@@ -37,15 +38,9 @@ div.text h1 {
         font-size: 12px;
         opacity: 0.8;
     }
-    
-}
 
-@media (min-width: 200px){
-    .heroText{
-        font-size: 50px;
-        padding: 150px 35px 45px 50px;
-        font-weight: 800;
-        color: #fff;
-        letter-spacing: 2px;
+    footer {
+        font-size: 12px;
     }
+    
 }

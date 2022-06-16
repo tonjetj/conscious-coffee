@@ -17,9 +17,11 @@
       }
   
 
+    footer, nav.scrolled {
+      background-color: #141414;
+    }
     nav.scrolled {
       z-index: 1;
-      background-color: #141414;
     }
 
     nav .logo{
@@ -27,7 +29,7 @@
       padding: 20px 30px;
     }
 
-    nav ul, .breadcrumbs ul {
+    nav ul, .breadcrumbs ul, footer ul {
       margin: 0;
       padding: 0;
       list-style: none;
@@ -174,23 +176,24 @@
   
     @media (max-width: 768px){
   
-     nav.clicked {
-         background-color: #141414;
-         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     nav.clicked, #navOtherPages, nav ul li a:hover {
+      background-color: #141414;
+      
      }
 
-     #navOtherPages {
-      background-color: #141414;
+     nav.clicked {
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
      }
 
      nav {
       display: unset;
      }
+
   
      nav .menu-icon {
-         padding: 35px; 
-         margin-top: 8px;
-         margin-right: 20px;
+      padding: 35px; 
+      margin-top: 8px;
+      margin-right: 20px;
      }
 
      nav .logo{
@@ -202,15 +205,14 @@
       padding-top: 85px;
     }
      nav ul li a {
-         text-align: center;
-         padding-top: 20px;
-         padding-bottom: 40px;
-         color: #E4CDB8;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      color: #E4CDB8;
      }
     
 
      nav ul li a:hover {
-        background-color: #141414;
         transform: none;
      }
 
