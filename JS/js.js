@@ -1,4 +1,13 @@
 const nav = document.querySelector("nav");
+const navClicked = document.querySelector(".menu-btn");
+
+navClicked.onclick = function () {
+  if (nav.className === "clicked") {
+    nav.className = "";
+  } else {
+    nav.className = "clicked";
+  }
+};
 
 function handleScroll() {
   console.log(window.scrollY);

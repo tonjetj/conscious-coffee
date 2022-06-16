@@ -8,17 +8,15 @@ body {
 
 @media (min-width: 768px){
 
-    header {
-        background-color: #141414;
-        height: 111px;
-    }
     .header {
         z-index: 1;
         background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
+        background-size: 100%;
         height: 1000px;
-        background-position-y: center;
+    } 
+    header {
+        background-color: #141414;
+        height: 111px;
     }
     .main {
         display: grid;
@@ -58,10 +56,26 @@ body {
 
 }
 
+/* Screen Size: 200px and up */
+
 @media (min-width: 200px){
+
+    .header {
+        z-index: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 200px;
+        min-height: 600px;
+        background-position-y: center;
+        background-position-x: center;
+    }
     main {
         margin: 0;
         padding: 0;
+    }
+
+    .main .container {
+        grid-column: 3/11;
     }
 
     div.text {
