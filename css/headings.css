@@ -21,6 +21,9 @@
 
     .card p, .main h1, div.text p, footer {
             font-family: 'Poppins', Helvetica;
+    }
+
+    .card p, .main h1, div.text p {
             margin-bottom: 20px;
     }
 
