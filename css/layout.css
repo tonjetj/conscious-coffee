@@ -1,159 +1,141 @@
 html {
-    scroll-behavior: smooth;
+        scroll-behavior: smooth;
 }
 body {
-    margin: 0;
-    background-color: #E0DCD9;
+        margin: 0;
+        background-color: #E0DCD9;
 }
 
 footer {
-    padding: 50px;
+        padding: 50px;
 }
 
 footer div {
-    align-items: center;
-    text-align: center;
+        align-items: center;
+        text-align: center;
 }
 
 footer div ul {
-    list-style: none;
-    margin-bottom: 20px;
+        list-style: none;
+        margin-bottom: 20px;
 }
 
 footer div ul li {
-    padding: 10px;
+        padding: 10px;
 }
 
 footer div ul li a{
-    font-size: 12px;
-    text-decoration: none;
+        font-size: 12px;
+        text-decoration: none;
     
 }
 
 @media (min-width: 950px){
     .locationInfo p.copy {
-        max-width: 200px;
-        margin-left: auto;
+            max-width: 200px;
+            margin-left: auto;
     }
 
     .locationInfo h1 {
-        padding-left: 170px;
+            padding-left: 170px;
     }
 }
 
 @media (min-width: 768px){
 
+/* Layout*/
+
     .header {
-        z-index: 1;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        min-height: 1000px;
+            z-index: 1;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            min-height: 1000px;
     } 
     header {
-        background-color: #141414;
-        height: 111px;
+            background-color: #141414;
+            height: 111px;
     }
+/* Location page*/
     .main {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        padding-top: 80px;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            padding-top: 80px;
     }
 
     .container div.map {
-        display: none;
+            display: none;
     }
 
     .main .container {
-        grid-column: 3/11;
-    }
-
-    #main .container {
-        grid-column: 1/13;
-        margin-top: -90px;
-    }
-
-    .container div.map {
-        background-size: cover;
-    }
-
-
-    .container .card:hover {
-        opacity: 0.7;
-        transform: scale(1.1);
-        transition: 0.4s ease;
-        cursor: pointer;
-    }
-    .container h1 {
-        margin-bottom: 50px;
+            grid-column: 3/11;
     }
 
     .container .card {
-        display: inline-block;
-        margin: 0px 50px 100px 50px;
+            display: inline-block;
+            margin: 0px 50px 100px 50px;
+}
+/* Specific page for locations */
+
+    #main .container {
+            grid-column: 1/13;
+            margin-top: -90px;
+    }
+
+
+    .container h1 {
+            margin-bottom: 50px;
     }
 
     .locationInfo {
-        display: grid; 
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
     }
 
     .locationInfo p.copy.one, .locationInfo p.copy.two {
-        max-width: 200px;
-        margin-left: auto;
-        box-shadow: none;
-        grid-column: 1;
-    }
-
-    .locationInfo .locationImg {
-        width: 550px;
-        height: 600px;
+            max-width: 200px;
+            margin-left: auto;
+            box-shadow: none;
+            grid-column: 1;
     }
 
 
     .locationInfo p.one {
-        grid-row: 1;
-        margin-bottom: -20px;
-        margin-top: 120px;
+            grid-row: 1;
+            margin-bottom: -20px;
+            margin-top: 100px;
+            font-size: 14px;
     }
     .locationInfo p.two {
-        grid-row: 2;
-        margin-top: -30px;
-        margin-bottom: 70px;
-        border-top: dotted 1px black;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px; 
+            grid-row: 2;
+            margin: -100px 0px 200px 0px;
+            border-top: dotted 1px black;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px; 
     }
 
     .locationInfo .locationImg {
-        grid-column: 2/4;
-        grid-row: 2/3;
-        min-width: 400px;
-        margin-bottom: -120px;
-        margin-left: 20px;
+            width: 550px;
+            max-height: 600px;
+            grid-column: 2/4;
+            grid-row: 2/3;
+            min-width: 400px;
+            margin-bottom: -120px;
+            margin-left: 20px;
+            margin-top: -80px;
     }
 
-    .locationInfo .copy.one {
-        margin-top: 150px;
-        font-size: 14px;
-    }
-    .locationInfo .copy.two {
-        margin: -100px 0px 200px 0px;
-    }
-
-    .locationInfo .locationImg {
-        margin-top: -80px;
-    }
 }
 
 @media (max-width: 768px){
     .main {
-        display: flex;
-        padding-top: 130px;
+            display: flex;
+            padding-top: 130px;
     }
     .main .container {
-        display: block;
-        width: 100%;
+            display: block;
+            width: 100%;
+    
     }
 
 
@@ -164,117 +146,130 @@ footer div ul li a{
 
 @media (min-width: 200px){
 
+/* Layout */
+
     .header {
-        z-index: 1;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-width: 200px;
-        min-height: 600px;
-        background-position-y: center;
-        background-position-x: center;
+            z-index: 1;
+            background-repeat: no-repeat;
+            min-height: 600px;
+            background-position-y: center;
+            background-position-x: center;
     }
+
+    .header, .about-images {
+            background-size: cover;
+    }
+
+    .header, .about-images, .container .card .background-image {
+            min-width: 200px;
+    }
+
     main {
-        margin: 0;
-        padding: 0;
+            margin: 0;
+            padding: 0;
+    }
+
+    #main .container, .locationInfo .copy, .container .card, .locationImg {
+            align-items: center;
     }
 
     .main .container {
-        grid-column: 3/11;
+            display: block;
+            padding: 50px;
     }
 
+    div.text, #main .container, .locationInfo .copy, .container h1 {
+            text-align: center;
+    }
+
+    .container .card .background-image, .container div.map {
+            background-size: 100%;
+    }
+
+/* About page */
+    div.text, .container .card .background-image, .locationImg, .locationInfo .copy, .container .card {
+            border-radius: 10px;
+    }
     div.text {
-        z-index: 1;
-        background-color: #141414d5;
-        text-align: center;
-        padding: 50px;
-        width: 200px;
-        margin: 150px auto;
-        border-radius: 10px;
+            z-index: 1;
+            background-color: #141414d5;
+            padding: 50px;
+            width: 200px;
+            margin: 150px auto;
+    }
+
+    .about-images, .container .card .background-image {
+            background-repeat: no-repeat;
     }
 
     .about-images {
-        z-index: 0;
-        padding-top: 10px;
-        min-height: 900px;
-        min-width: 200px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background: no-repeat fixed cover;
+            z-index: 0;
+            padding-top: 10px;
+            min-height: 900px;
+            background-position-x: center;
+            background: no-repeat fixed cover;
     }
+
+/* Location page */
+    .container .card {
+            padding: 20px;
+            min-width: 220px;
+            max-width: 680px;
+            text-align: left;
+        }
+    
+    .container .card .background-image {
+            min-height: 150px;
+            max-height: 300px;
+            background-position-y: top;
+        }
+    
+    .container .card a {
+            background-color: #141414;
+            padding: 8px 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+/* specific page for locations */
 
    #main {
-        padding-top: 108px;
-    }
-
-    #main .container {
-        align-items: center;
-        text-align: center;
+            padding-top: 108px;
     }
 
    .container div.map {
-        min-height: 200px;
-        max-height: 700px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        max-width: auto;
+            min-height: 200px;
+            max-height: 700px;
+            background-repeat: no-repeat;
+            max-width: auto;
     }
 
     .locationInfo {
-        padding: 20px 40px;
+            padding: 20px 40px;
     }
 
     .locationInfo .copy {
-        padding: 20px;
-        text-align: center;
+            padding: 20px;
     }
     .container h1 {
-        text-align: center;
-        margin-bottom: 50px;
+            margin-bottom: 50px;
     }
 
     .locationInfo .copy.one {
-        background-color: #ffc130;
+            background-color: #ffc130;
     }
 
     .locationInfo .copy, .container .card {
-        background-color: #EEE8E3;
-        margin: auto;
-        align-items: center;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-        margin: 10px 0px 50px 0px;
-        border-radius: 10px;
+            background-color: #EEE8E3;
+            margin: auto;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            margin: 10px 0px 50px 0px;
     }
 
     .locationImg {
-        max-width: 100%;
-        max-height: 330px;
-        align-items: center;
-        margin-top: -20px;
-        border-radius: 10px;
-    }
-    .container .card {
-        padding: 20px;
-        min-width: 220px;
-        max-width: 280px;
-        text-align: left;
-    }
-
-    .container .card .background-image {
-        min-height: 150px;
-        max-height: 300px;
-        background-repeat: no-repeat;
-        background-position-y: top;
-        background-size: 100%;
-        min-width: 200px;
-        border-radius: 10px;
-    }
-
-    .container .card a {
-        background-color: #141414;
-        padding: 8px 10px;
-        text-decoration: none;
-        border-radius: 5px;
+            max-width: 100%;
+            max-height: 330px;
+            margin-top: -20px;
     }
 
 }
