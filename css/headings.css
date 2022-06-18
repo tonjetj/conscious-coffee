@@ -13,7 +13,7 @@ h1 {
     font-size: 30px;
 }
 
-h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one, .copy.two {
+h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one, .copy.two, .form div p, input, label, .submit{
     font-family: 'Barlow Condensed', sans-serif;
 }
 
