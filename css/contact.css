@@ -12,7 +12,7 @@
     resize: vertical;
   }
   
-  .submit {
+  .submit, .cta {
     background-color: #ffc130;
     color: #141414;
     padding: 17px 20px;
@@ -21,7 +21,7 @@
     border-radius: 10px;
   }
   
-  .submit:hover, .submit:active {
+  .submit:hover, .submit:active, .cta:hover {
     background-color: #94e098;
   }
 
@@ -52,7 +52,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .column, .submit {
+    .column, .submit{
       width: 100%;
       margin-top: 0;
     }

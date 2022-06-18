@@ -3,83 +3,96 @@
     src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300&display=swap');
 }
 
-h1 {
-    margin: 0;
-    z-index: 0;
-    top: 50%;
-}
+    .main h1, div.text h1 {
+            font-size: 30px;
+    }
+    h2 {
+            font-weight: 200;
+    }
 
-h2 {
-    font-weight: 200;
-}
 
-.main h1, div.text h1 {
-    font-size: 30px;
-}
+    h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one, .copy.two, .form div p, input, label, .submit, .copy.three{
+            font-family: 'Barlow Condensed', sans-serif;
+    }
 
-h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one, .copy.two, .form div p, input, label, .submit, .copy.three{
-    font-family: 'Barlow Condensed', sans-serif;
-}
+    .copy.three {
+            font-size: 20px;
+    }
 
-.copy.three {
-    font-size: 20px;
-}
+    .card p, .main h1, div.text p, footer {
+            font-family: 'Poppins', Helvetica;
+            margin-bottom: 20px;
+    }
 
-h2 {
-    font-weight: 200;
-}
-
-.card p, .main h1, div.text p, footer {
-    font-family: 'Poppins', Helvetica;
-    margin-bottom: 20px;
-}
-
-nav li a, .container .card a, div.text, footer, footer div ul li a, .copy.three {
-    color: #E4CDB8;
-}
+    nav li a, .container .card a, div.text, footer, footer div ul li a, .copy.three {
+            color: #E4CDB8;
+    }
 
 
 
-div.text h1 {
-    margin-bottom: 30px;
+    div.text h1 {
+            margin-bottom: 30px;
+    }
+
+    .hero .heroText {
+        color: #fff;
 }
 
 
 @media (min-width: 950px){
     .locationInfo h1 {
-        margin: auto;
+            margin: auto;
     }
 }
 
 @media (min-width: 768px){
 
     .locationInfo h1 {
-        grid-column: 2;
-        grid-row: 1;
-        margin-top: 80px;
-        margin-left: 30px;
-        font-size: 50px;
+            grid-column: 2;
+            grid-row: 1;
+            margin-top: 80px;
+            margin-left: 30px;
+            font-size: 50px;
     }
 
     .locationInfo h1 {
-        margin-left: -130px;
-        margin-top: 100px;
-        font-size: 50px;
-        min-width: 100px;
-        grid-column: 2/4;
+            margin-left: -130px;
+            margin-top: 100px;
+            font-size: 50px;
+            min-width: 100px;
+            grid-column: 2/4;
     }
+
+    .homepage .container h2 {
+            font-size: 50px;
+    }
+
+    .hero .heroText {
+            font-size: 75px;
+}
+
 }
 
 @media (max-width: 768px){
-    .card p, .container p  {
-        font-size: 12px;
-        opacity: 0.8;
+    .card p, .container p, .homepage .container .copy .cta  {
+            font-size: 14px;
     }
 
 
     footer {
-        font-size: 12px;
+            font-size: 12px;
     }
 
+    .hero .heroText {
+        font-size: 70px;
+}
+
+    
+}
+
+@media (max-width: 500px){
+    .hero .heroText {
+        font-size: 55px;
+}
     
 }
