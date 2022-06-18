@@ -9,12 +9,20 @@ h1 {
     top: 50%;
 }
 
+h2 {
+    font-weight: 200;
+}
+
 .main h1, div.text h1 {
     font-size: 30px;
 }
 
-h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one, .copy.two, .form div p, input, label, .submit{
+h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one, .copy.two, .form div p, input, label, .submit, .copy.three{
     font-family: 'Barlow Condensed', sans-serif;
+}
+
+.copy.three {
+    font-size: 20px;
 }
 
 h2 {
@@ -26,7 +34,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-nav li a, .container .card a, div.text, footer, footer div ul li a {
+nav li a, .container .card a, div.text, footer, footer div ul li a, .copy.three {
     color: #E4CDB8;
 }
 
