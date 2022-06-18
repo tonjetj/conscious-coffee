@@ -59,6 +59,11 @@ footer div ul li a{
             background-color: #141414;
             height: 111px;
     }
+
+    div.text {
+        width: 400px!important;
+        margin: 150px auto;
+}
 /* Location page*/
 
     .main {
@@ -85,10 +90,9 @@ footer div ul li a{
             grid-column: 2/6;
     }
 
-    .container div.card {
+    .container .inside .card {
             display: inline-block;
-            justify-content: space-between;
-            width: 150px;
+            max-width: 250px;
             margin-left: 10px; 
 }
 /* Specific page for locations */
@@ -157,6 +161,10 @@ footer div ul li a{
             margin: 0;
             padding-top: 130px;
             display: flex;
+}
+
+.container .inside .card {
+    margin-left: 10px; 
 }
 }
 
