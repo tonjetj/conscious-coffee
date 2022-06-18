@@ -10,7 +10,7 @@ h1 {
     font-size: 30px;
 }
 
-h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home {
+h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -33,6 +33,12 @@ div.text h1 {
     margin-bottom: 30px;
 }
 
+@media (min-width: 950px){
+    .locationInfo h1 {
+        margin: auto;
+    }
+}
+
 @media (min-width: 768px){
 
     .locationInfo h1 {
@@ -41,6 +47,14 @@ div.text h1 {
         margin-top: 80px;
         margin-left: 30px;
         font-size: 50px;
+    }
+
+    .locationInfo h1 {
+        margin-left: -130px;
+        margin-top: 100px;
+        font-size: 50px;
+        min-width: 100px;
+        grid-column: 2/4;
     }
 }
 
@@ -54,5 +68,6 @@ div.text h1 {
     footer {
         font-size: 12px;
     }
+
     
 }
