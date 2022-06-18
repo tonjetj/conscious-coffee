@@ -116,6 +116,9 @@
 
     .cta {
             grid-column: 5/6; 
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #141414;
     }
 
     .hero {
@@ -289,12 +292,6 @@
             margin-bottom: 20px;
     }
 
-    .homepage .container .copy a.cta {
-            text-decoration: none;
-            text-transform: uppercase;
-            color: #141414;
-    }
-
 /* Layout */
 
     .header {
@@ -325,6 +322,13 @@
     .container .card .background-image, .container div.map {
             background-size: 100%;
     }
+
+    .cta {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #141414;
+        padding: 10px 14px;
+}
 
 /* About page */
     div.text, .container .card .background-image, .locationImg, .locationInfo .copy, .container .card {
@@ -363,12 +367,6 @@
             background-position-y: top;
         }
     
-    .container .card a {
-            background-color: #141414;
-            padding: 8px 10px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
 
 /* specific page for locations */
 
@@ -420,6 +418,7 @@
         bottom: 120px;
         right: 15px;
       }
+      
 
 
 }
