@@ -1,35 +1,58 @@
-html {
-        scroll-behavior: smooth;
-}
-body {
-        margin: 0;
-        background-color: #E0DCD9;
-}
+    html {
+            scroll-behavior: smooth;
+    }
+    body {
+            margin: 0;
+            background-color: #E0DCD9;
+    }
 
-footer {
-        padding: 50px;
-        margin-bottom: 0;
-}
+    footer {
+            padding: 50px;
+            margin-bottom: 0;
+    }
 
-footer div {
-        align-items: center;
-        text-align: center;
-}
+    footer div {
+            align-items: center;
+            text-align: center;
+    }
 
-footer div ul {
-        list-style: none;
-        margin-bottom: 20px;
-}
+    footer div ul {
+            list-style: none;
+            margin-bottom: 20px;
+    }
 
-footer div ul li {
-        padding: 10px;
-}
+    footer div ul li {
+            padding: 10px;
+    }
 
-footer div ul li a{
-        font-size: 12px;
-        text-decoration: none;
+    footer div ul li a{
+            font-size: 12px;
+            text-decoration: none;
     
 }
+
+    .back-to-top {
+            position: fixed;
+            z-index: 99;
+            transition: 0.5s ease-in;
+    }
+
+    #myBtn {
+            transition: 0.4s ease-in;
+            display: none;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: #ffc130;
+            padding: 10px 15px;
+
+    }
+
+    button i {
+            color: #0b1b32;
+    }
 
 /* Screen Size: from 950px and up */
 
@@ -66,35 +89,39 @@ footer div ul li a{
     }
 
     div.text {
-        width: 400px!important;
-        margin: 150px auto;
+            width: 400px!important;
+            margin: 150px auto;
 }
+
+    .back-to-top {
+            right: 30px;
+    }
 
 /* Homepage */
 
-.homepage .container {
-    margin: 0 auto!important;
-    overflow: hidden;
-}
+    .homepage .container {
+            margin: 0 auto!important;
+            overflow: hidden;
+    }
 
-.homepage .container .copy {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    margin: 0 auto;
-}
+    .homepage .container .copy {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            margin: 0 auto;
+    }
 
-.homepage .container .copy p, .homepage .container .copy .homePage.img {
-    grid-column: 5/9;
-}
+    .homepage .container .copy p, .homepage .container .copy .homePage.img {
+            grid-column: 5/9;
+    }
 
-.cta {
-    grid-column: 5/6; 
-}
+    .cta {
+            grid-column: 5/6; 
+    }
 
-.hero {
-    top: 10%!important;
-    left: 20%!important;
-}
+    .hero {
+            top: 10%!important;
+            left: 20%!important;
+    }
 
 
 /* Location page*/
@@ -387,5 +414,12 @@ footer div ul li a{
     .copy.three {
         background-color: #141414!important;
     }
+
+    /* Back to top button */
+    .back-to-top {
+        bottom: 120px;
+        right: 15px;
+      }
+
 
 }
