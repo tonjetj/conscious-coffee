@@ -2,7 +2,7 @@
 /* Navigation */
     nav{
       position: fixed;
-      z-index: 3;
+      z-index: 99;
       align-items: center;
       justify-content: space-between;
       padding: 0;
