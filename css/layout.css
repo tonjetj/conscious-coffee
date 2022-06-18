@@ -4,6 +4,7 @@ html {
 body {
         margin: 0;
         background-color: #E0DCD9;
+        overflow: hidden;
 }
 
 footer {
@@ -31,6 +32,8 @@ footer div ul li a{
 }
 
 @media (min-width: 950px){
+
+
     .locationInfo p.copy {
             max-width: 200px;
             margin-left: auto;
@@ -39,6 +42,7 @@ footer div ul li a{
     .locationInfo h1 {
             padding-left: 170px;
     }
+
 }
 
 @media (min-width: 768px){
@@ -56,23 +60,35 @@ footer div ul li a{
             height: 111px;
     }
 /* Location page*/
+
     .main {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
             padding-top: 80px;
+            margin: auto;
+    }
+
+    .main .container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
     }
 
     .container div.map {
             display: none;
     }
 
-    .main .container {
-            grid-column: 3/11;
+
+    .container h1 {
+            grid-column: 1/7;
     }
 
-    .container .card {
+    .container .inside {
+            grid-column: 2/6;
+    }
+
+    .container div.card {
             display: inline-block;
-            margin: 0px 50px 100px 50px;
+            justify-content: space-between;
+            width: 150px;
+            margin-left: 10px; 
 }
 /* Specific page for locations */
 
@@ -125,22 +141,24 @@ footer div ul li a{
             margin-top: -80px;
     }
 
+
 }
 
-@media (max-width: 768px){
-    .main {
-            display: flex;
-            padding-top: 130px;
-    }
+/* Screen Size: up to 767px */
+
+@media (max-width: 767px){
     .main .container {
             display: block;
+            padding: 50px;
             width: 100%;
-    
-    }
-
-
-
 }
+    .main {
+            margin: 0;
+            padding-top: 130px;
+            display: flex;
+}
+}
+
 
 /* Screen Size: 200px and up */
 
@@ -153,29 +171,20 @@ footer div ul li a{
             background-repeat: no-repeat;
             min-height: 600px;
             background-position-y: center;
-            background-position-x: center;
     }
 
     .header, .about-images {
             background-size: cover;
+            background-position-x: center;
     }
 
     .header, .about-images, .container .card .background-image {
             min-width: 200px;
     }
 
-    main {
-            margin: 0;
-            padding: 0;
-    }
 
     #main .container, .locationInfo .copy, .container .card, .locationImg {
             align-items: center;
-    }
-
-    .main .container {
-            display: block;
-            padding: 50px;
     }
 
     div.text, #main .container, .locationInfo .copy, .container h1 {
@@ -206,7 +215,6 @@ footer div ul li a{
             z-index: 0;
             padding-top: 10px;
             min-height: 900px;
-            background-position-x: center;
             background: no-repeat fixed cover;
     }
 
