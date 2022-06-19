@@ -107,15 +107,14 @@
     .main h1, div.text h1 {
             font-size: 30px;
     }
-    h2 {
+    h2, .form h1 {
             font-weight: 200;
     }
 
 
-    h2, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one, .copy.two, .form div p, input, label, .submit, .copy.three{
-            font-family: 'Barlow Condensed', sans-serif;
+    h2, .form h1, nav li a, .breadcrumbs ul li, #main .container .back-to-home, .locationInfo .copy.one, .copy.two, .form div p, input, label, .submit, .copy.three{
+            font-family: 'Barlow Condensed', sans-serif!important;
     }
-
     .copy.three {
             font-size: 20px;
     }
