@@ -350,7 +350,7 @@
             z-index: -1;
             padding-top: 10px;
             min-height: 900px;
-            background: no-repeat fixed cover;
+            background: no-repeat fixed;
     }
 
 /* Location page */
@@ -378,7 +378,6 @@
             min-height: 200px;
             max-height: 700px;
             background-repeat: no-repeat;
-            max-width: auto;
     }
 
     .locationInfo {
