@@ -34,6 +34,7 @@
     max-width: 600px;
     margin: auto; 
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 80px;
   }
   
   .form div h2, .form div p{
