@@ -138,16 +138,16 @@
     }
 
     .hero .heroText {
-        color: #fff;
+            color: #fff;
 }
 
-
+/* Screen Size: 950px and up */
 @media (min-width: 950px){
     .locationInfo h1 {
             margin: auto;
-    }
+        }
 }
-
+/* Screen Size: 768px and up */
 @media (min-width: 768px){
 
     .locationInfo h1 {
@@ -156,7 +156,7 @@
             margin-top: 80px;
             margin-left: 30px;
             font-size: 50px;
-    }
+        }
 
     .locationInfo h1 {
             margin-left: -130px;
@@ -164,38 +164,36 @@
             font-size: 50px;
             min-width: 100px;
             grid-column: 2/4;
-    }
+        }
 
     .homepage .container h2 {
             font-size: 50px;
-    }
+        }
 
     .hero .heroText {
             font-size: 75px;
-}
+        }
 
 }
 
+/* Screen Size: max 768px */
 @media (max-width: 768px){
     .card p, .container p, .homepage .container .copy .cta  {
             font-size: 14px;
-    }
-
+        }
 
     footer {
             font-size: 12px;
-    }
+        }
 
     .hero .heroText {
-        font-size: 70px;
+                font-size: 70px;
+        } 
 }
 
-    
-}
-
+/* Screen Size: max 500px */
 @media (max-width: 500px){
     .hero .heroText {
         font-size: 55px;
-}
-    
+        } 
 }

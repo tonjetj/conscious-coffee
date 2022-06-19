@@ -47,11 +47,15 @@
             border-radius: 10px;
             background-color: #ffc130;
             padding: 10px 15px;
-
     }
 
-    button i {
-            color: #0b1b32;
+    button i, .cta {
+            color: #141414;
+    }
+
+    .cta {
+        text-decoration: none;
+        text-transform: uppercase;
     }
 
 /* Screen Size: from 950px and up */
@@ -97,17 +101,22 @@
             right: 30px;
     }
 
+    .locationInfo, .main .container, .homepage .container .copy {
+            display: grid; 
+    }
+
 /* Homepage */
 
+    .homepage .container, .homepage .container .copy {
+            margin: 0 auto!important
+    }
+
     .homepage .container {
-            margin: 0 auto!important;
             overflow: hidden;
     }
 
     .homepage .container .copy {
-            display: grid;
             grid-template-columns: repeat(12, 1fr);
-            margin: 0 auto;
     }
 
     .homepage .container .copy p, .homepage .container .copy .homePage.img {
@@ -116,8 +125,6 @@
 
     .cta {
             grid-column: 5/6; 
-            text-decoration: none;
-            text-transform: uppercase;
             color: #141414;
     }
 
@@ -135,7 +142,6 @@
     }
 
     .main .container {
-            display: grid;
             grid-template-columns: repeat(6, 1fr);
     }
 
@@ -170,7 +176,6 @@
     }
 
     .locationInfo {
-            display: grid; 
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(3, 1fr);
     }
@@ -268,15 +273,15 @@
         padding: 100px;
     }
 
+    .homepage .container, .homepage .container .copy .homePage.img {
+            width: 100%; 
+    }   
+
     .homepage .container {
-            width: 100%;
             margin: 0;
             padding: 20px 0;
     }
 
-    .homepage .container h2 {
-            text-align: center;
-    }
     .homepage .container .copy {
             padding: 40px;
             background-color: #EEE8E3;
@@ -284,9 +289,7 @@
     }
 
     .homepage .container .copy .homePage.img{
-            width: 100%;
             max-width: 600px;
-            text-align: center;
             border-radius: 10px;
             opacity: 0.8;
             margin-bottom: 20px;
@@ -315,7 +318,7 @@
             align-items: center;
     }
 
-    div.text, #main .container, .locationInfo .copy, .container h1 {
+    div.text, #main .container, .locationInfo .copy, .container h1, .homepage .container h2, .homepage .container .copy .homePage.img {
             text-align: center;
     }
 
@@ -324,9 +327,6 @@
     }
 
     .cta {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #141414;
         padding: 10px 14px;
 }
 
@@ -355,7 +355,6 @@
 
 /* Location page */
     .container .card {
-            padding: 20px;
             min-width: 220px;
             max-width: 680px;
             text-align: left;
@@ -384,7 +383,7 @@
             padding: 20px 40px;
     }
 
-    .locationInfo .copy {
+    .locationInfo .copy, .container .card {
             padding: 20px;
     }
     .container h1 {
