@@ -1,7 +1,20 @@
 @font-face {
-    font-family: 'Poppins', helvetica;
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300&display=swap');
-}
+        font-family : 'Poppins';
+        font-style : normal;
+        font-weight : 200, 300, 400, 500, 600, 800, 900;
+        font-display : swap;
+        src : url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5V1s.ttf) format('truetype');
+} 
+
+@font-face {
+        font-family : 'Barlow Condensed';
+        font-style : normal;
+        font-weight : 100, 200, 300, 400;
+        font-display : swap;
+        src : url(https://fonts.gstatic.com/s/barlowcondensed/v12/HTx3L3I-JCGChYJ8VI-L6OO_au7B2xY.ttf) format('truetype');
+        } 
+
+
 
     .main h1, div.text h1 {
             font-size: 30px;
