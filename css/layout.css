@@ -347,7 +347,7 @@
     }
 
     .about-images {
-            z-index: 0;
+            z-index: -1;
             padding-top: 10px;
             min-height: 900px;
             background: no-repeat fixed cover;

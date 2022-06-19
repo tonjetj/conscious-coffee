@@ -14,7 +14,7 @@ function handleScroll() {
 
   const scrolledY = window.scrollY;
 
-  if (scrolledY > 200) {
+  if (scrolledY > 20) {
     nav.classList.add("scrolled");
   } else {
     nav.classList.remove("scrolled");

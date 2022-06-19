@@ -13,7 +13,6 @@
     nav, .breadcrumbs {
       width: 100%;
       display: flex;
-      position: fixed;
       }
   
 
@@ -21,7 +20,12 @@
       background-color: #141414;
     }
     nav.scrolled {
-      z-index: 1;
+      z-index: 99;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    nav .menu-icon.scrolled {
+      padding: 22px;
     }
 
     nav .logo{
@@ -37,6 +41,7 @@
     }
 
     nav li a {
+      z-index: 1;
       display: block;
       padding: 20px;
       font-weight: 300;
@@ -72,11 +77,6 @@
       text-align: center;
       padding-bottom: 2px;
     }
-  
-
-    .breadcrumbs.scrolled, .nav.scrolled {
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
 
   
     .breadcrumbs ul li {
@@ -107,9 +107,6 @@
       user-select: none;
     }
 
-    nav .menu-icon.scrolled {
-      padding: 22px;
-    }
     
     nav .menu-icon .navicon {
       background:  #000;
